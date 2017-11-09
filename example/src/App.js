@@ -75,7 +75,7 @@ class App extends Component {
     };
 
     let persons = null;
-    //should we should the person lists? dependant on state then we will either render the persons or not.
+    //should we show the person lists? dependant on state then we will either render the persons or not.
     if (this.state.showPersons) {
       //map function to turn an array into html
       persons = (
